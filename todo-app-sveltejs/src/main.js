@@ -4,8 +4,9 @@ const app = new App({
 	target: document.body,
 	props: {
 		list: [
-			{ id: 1, text: "Create Vus.js apps"},
-			{ id: 2, text: "Create Svelte apps"}
+			{ id: 1, text: "Create Vue.js apps"},
+			{ id: 2, text: "Create React apps"},
+			{ id: 3, text: "Create Svelte apps"}
 		]
 	}
 });

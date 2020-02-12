@@ -21,7 +21,7 @@
     }
 
     const removeItem = id => {
-        list = list.filter(item => item.id != id)
+        list = list.filter(item => item.id !== id)
     };
 </script>
 

@@ -6,7 +6,6 @@
 
 <div class="todo-item">
     <p>{text} <small>[id:{id}]</small></p>
-    
     <button class="todo-item-delete" on:click={() => deleteItem(id)}>-</button>
 </div>
 
