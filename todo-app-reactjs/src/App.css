@@ -1,0 +1,82 @@
+.logo {
+    width: 50px;
+    position: relative;
+    top: 50px;
+}
+.todo {
+    text-align: center;
+    border: 1px solid white;
+    width: 80vw;
+    height: auto;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.3);
+    background: #fdfdfd;
+    padding-bottom: 60px;
+    margin: 40px auto;
+}
+h1 {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
+        Arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 70px auto 30px;
+}
+.todo-add-input {
+    width: 90%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 1px lightgrey;
+    padding: 12px;
+    margin: 10px;
+}
+.todo-add {
+    padding: 4px 12px;
+    margin: 10px;
+    margin-left: 0;
+    cursor: pointer;
+    background: #73ff73;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #47a947;
+    color: white;
+    font-size: 28px;
+    width: 1.7em;
+}
+.todo-add:hover {
+    box-shadow: none;
+}
+.todo-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.todo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    width: 90%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 1px lightgrey;
+    padding: 12px;
+    margin: 10px;
+}
+p small {
+    color: #666;
+    font-size: small;
+}
+.todo-item-delete {
+    padding: 4px 12px;
+    margin: 10px;
+    margin-left: 0;
+    cursor: pointer;
+    background: #ff7373;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #c70202;
+    color: white;
+    font-size: 28px;
+    width: 1.7em;
+}
+.todo-item-delete:hover {
+    box-shadow: none;
+}
