@@ -1,5 +1,4 @@
 <template>
-  <div id="app">
     <div class="ToDo">
       <img class="Logo" :src="logo" alt="Vue logo" />
       <h1 class="ToDo-Header">To Do</h1>
@@ -13,7 +12,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -27,8 +25,9 @@ export default {
   data() {
     return {
         list: [
-            { id: 1, text: "Create Vus.js apps"},
-            { id: 2, text: "Create Svelte apps"}
+            { id: 1, text: "Create Vue.js apps"},
+            { id: 2, text: "Create React apps"},
+            { id: 3, text: "Create Svelte apps"}
         ],
         todo: "",
         logo: Logo
